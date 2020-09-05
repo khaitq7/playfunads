@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         title = ""
         initViewPager()
     }
-
+		//TOTO something
     private fun initViewPager() {
         viewPager = findViewById<View>(R.id.vertical_viewpager) as DummyViewPager
         //        viewPager.setPageTransformer(false, new ZoomOutTransformer());
